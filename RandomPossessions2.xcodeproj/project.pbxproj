@@ -10,6 +10,8 @@
 		1FF500F2169E2C330039CA00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF500F1169E2C330039CA00 /* Foundation.framework */; };
 		1FF500F5169E2C330039CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF500F4169E2C330039CA00 /* main.m */; };
 		1FF500F9169E2C330039CA00 /* RandomPossessions2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FF500F8169E2C330039CA00 /* RandomPossessions2.1 */; };
+		1FF50101169E45080039CA00 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF50100169E45080039CA00 /* BNRItem.m */; };
+		1FF5010416A091C60039CA00 /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5010316A091C60039CA00 /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,12 @@
 		1FF500ED169E2C330039CA00 /* RandomPossessions2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RandomPossessions2; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF500F1169E2C330039CA00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FF500F4169E2C330039CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FF500F7169E2C330039CA00 /* RandomPossessions2-Prefix.pch */ = {isa = PBXFileReference; path = "RandomPossessions2-Prefix.pch"; sourceTree = "<group>"; };
+		1FF500F7169E2C330039CA00 /* RandomPossessions2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomPossessions2-Prefix.pch"; sourceTree = "<group>"; };
 		1FF500F8169E2C330039CA00 /* RandomPossessions2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomPossessions2.1; sourceTree = "<group>"; };
+		1FF500FF169E45080039CA00 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		1FF50100169E45080039CA00 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		1FF5010216A091C60039CA00 /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		1FF5010316A091C60039CA00 /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 				1FF500F4169E2C330039CA00 /* main.m */,
 				1FF500F8169E2C330039CA00 /* RandomPossessions2.1 */,
 				1FF500F6169E2C330039CA00 /* Supporting Files */,
+				1FF500FF169E45080039CA00 /* BNRItem.h */,
+				1FF50100169E45080039CA00 /* BNRItem.m */,
+				1FF5010216A091C60039CA00 /* BNRContainer.h */,
+				1FF5010316A091C60039CA00 /* BNRContainer.m */,
 			);
 			path = RandomPossessions2;
 			sourceTree = "<group>";
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF500F5169E2C330039CA00 /* main.m in Sources */,
+				1FF50101169E45080039CA00 /* BNRItem.m in Sources */,
+				1FF5010416A091C60039CA00 /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
